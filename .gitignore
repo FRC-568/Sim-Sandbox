@@ -3,6 +3,7 @@
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
+/[Bb]ackup*/
 
 /Assets/AssetStoreTools*
 /Assets/Plugins/GitHub.meta
