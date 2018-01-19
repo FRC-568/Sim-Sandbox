@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: 689c692c0a32ac74b825386517559c35
+timeCreated: 1516185494
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Cables
+    100002: Carpet
+    100004: Driver_Station_000
+    100006: Driver_Station_001
+    100008: //RootNode
+    100010: Guardrail_000
+    100012: Guardrail_002
+    100014: Platform_000
+    100016: Platform_002
+    100018: Scale
+    100020: Switch_000
+    100022: Switch_001
+    100024: Tape
+    100026: Vault_000
+    100028: Vault_001
+    400000: Cables
+    400002: Carpet
+    400004: Driver_Station_000
+    400006: Driver_Station_001
+    400008: //RootNode
+    400010: Guardrail_000
+    400012: Guardrail_002
+    400014: Platform_000
+    400016: Platform_002
+    400018: Scale
+    400020: Switch_000
+    400022: Switch_001
+    400024: Tape
+    400026: Vault_000
+    400028: Vault_001
+    2100000: Steel_Galvanized
+    2100002: HDPE_Blue
+    2100004: Aluminum_Matte
+    2100006: Polycarbonate_Clear
+    2100008: HDPE_Red
+    2100010: HDPE_Yellow
+    2100012: Plastic_White
+    2100014: Tape_Black
+    2100016: Tape_Blue
+    2100018: Tape_Red
+    2100020: Tape_White
+    2100022: HDPE_Black
+    2100024: Tape_Retro
+    2100026: Carpet_Grey
+    2300000: Cables
+    2300002: Carpet
+    2300004: Driver_Station_000
+    2300006: Driver_Station_001
+    2300008: Guardrail_000
+    2300010: Guardrail_002
+    2300012: Platform_000
+    2300014: Platform_002
+    2300016: Scale
+    2300018: Switch_000
+    2300020: Switch_001
+    2300022: Tape
+    2300024: Vault_000
+    2300026: Vault_001
+    3300000: Cables
+    3300002: Carpet
+    3300004: Driver_Station_000
+    3300006: Driver_Station_001
+    3300008: Guardrail_000
+    3300010: Guardrail_002
+    3300012: Platform_000
+    3300014: Platform_002
+    3300016: Scale
+    3300018: Switch_000
+    3300020: Switch_001
+    3300022: Tape
+    3300024: Vault_000
+    3300026: Vault_001
+    4300000: Platform_002
+    4300002: Vault_001
+    4300004: Vault_000
+    4300006: Guardrail_002
+    4300008: Driver_Station_000
+    4300010: Cables
+    4300012: Tape
+    4300014: Platform_000
+    4300016: Scale
+    4300018: Switch_000
+    4300020: Driver_Station_001
+    4300022: Guardrail_000
+    4300024: Carpet
+    4300026: Switch_001
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
