@@ -9,7 +9,9 @@ public class Mover : MonoBehaviour
     public WheelCollider wheelFL;
     public WheelCollider wheelFR;
     public GameObject centerOfMass;
-
+    public float coastTorque = 0;
+    public float motorTorque = 500;
+        
     // Use this for initialization
     void Start()
     {
@@ -26,32 +28,44 @@ public class Mover : MonoBehaviour
     {
         if (Input.GetAxis("Horizontal") < 0)
         {
-
-            wheelFR.motorTorque = 500;
-            wheelFL.motorTorque = -500;
-            wheelBL.motorTorque = -500;
-            wheelBR.motorTorque = 500;
-            wheelFL.steerAngle = 0;
+            wheelFL.steerAngle = -50;
+            wheelFR.steerAngle = -50;
         }
             if (Input.GetAxis("Horizontal") > 0)
         {
-            wheelFR.motorTorque = -500;
-            wheelFL.motorTorque = 500;
-            wheelBL.motorTorque = 500;
-            wheelBR.motorTorque = -500;
-            wheelFL.steerAngle = 0;
+            wheelFL.steerAngle = 50;
+            wheelFR.steerAngle = 50;
         }
+            if (Input.GetAxis("Horizontal") == 0)
+        {
+            wheelFL.steerAngle = 0;
+            wheelFR.steerAngle = 0;
+        }
+            
             if (Input.GetAxis("Vertical") < 0)
         {
-            wheelBL.motorTorque = -500;
-            wheelBR.motorTorque = -500;
-            wheelFL.steerAngle = 0;
+            wheelFR.motorTorque = -motorTorque;
+            wheelFL.motorTorque = -motorTorque;
+            wheelBL.motorTorque = -motorTorque;
+            wheelBR.motorTorque = -motorTorque;
+            wheelBL.brakeTorque = 0;
+            wheelBR.brakeTorque = 0;
         }
             if (Input.GetAxis("Vertical") > 0)
         {
-            wheelBL.motorTorque = 500;
-            wheelBR.motorTorque = 500;
-            wheelFL.steerAngle = 0;
+            wheelFR.motorTorque = motorTorque;
+            wheelFL.motorTorque = motorTorque;
+            wheelBL.motorTorque = motorTorque;
+            wheelBR.motorTorque = motorTorque;
+            wheelBL.brakeTorque = 0;
+            wheelBR.brakeTorque = 0;
+        }
+            if (Input.GetAxis("Vertical") == 0)
+        {
+                wheelBL.brakeTorque = coastTorque;
+                wheelBR.brakeTorque = coastTorque;
+                wheelBL.motorTorque = 0;
+                wheelBR.motorTorque = 0;
         }
       
 

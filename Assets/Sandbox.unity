@@ -784,7 +784,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1341579199
 GameObject:
@@ -815,7 +815,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1341579201
 MeshRenderer:
@@ -921,7 +921,7 @@ Transform:
   - {fileID: 1088557788}
   - {fileID: 423985370}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1389503232
 MonoBehaviour:
@@ -939,6 +939,8 @@ MonoBehaviour:
   wheelFL: {fileID: 1680853661}
   wheelFR: {fileID: 917006249}
   centerOfMass: {fileID: 423985369}
+  coastTorque: 900
+  motorTorque: 500
 --- !u!1 &1591220413
 GameObject:
   m_ObjectHideFlags: 0
